@@ -1,0 +1,11 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+@use 'modern-normalize/modern-normalize.css';
+@use 'fonts';
+;
+
+* {
+  color: $primary;
+  font-family: 'Oswald', sans-serif;
+}

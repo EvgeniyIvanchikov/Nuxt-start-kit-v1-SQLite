@@ -1,0 +1,27 @@
+{
+  "name": "Nuxt-start-kit-v1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare": "nuxt prepare",
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/eslint": "^0.7.0",
+    "@nuxtjs/strapi": "^2.0.0",
+    "modern-normalize": "^3.0.1",
+    "nuxt": "^3.14.159",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee",
+  "devDependencies": {
+    "eslint-define-config": "^2.1.0",
+    "sass": "^1.81.0",
+    "sass-loader": "^16.0.3"
+  }
+}
